@@ -471,6 +471,13 @@ a {
   border-radius: 3rem;
   max-width: 40rem;
   width: 100%;
+  outline: none;
+  color: #fff;
+  font-family: inherit;
+}
+
+.top-form input:focus {
+  border: 1px solid greenyellow;
 }
 
 .top-form i {
@@ -511,6 +518,11 @@ a {
   border: 1px solid gray;
   padding: 1rem;
   border-radius: 1rem;
+}
+
+.market .bottom .card:hover {
+  background-color: #b0b0b023;
+  cursor: pointer;
 }
 
 .market .bottom .card img {
