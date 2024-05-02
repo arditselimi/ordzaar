@@ -21,7 +21,9 @@ btnMenu.addEventListener("click", () => {
 function isActive() {
   if (ul.classList.contains("active")) {
     document.querySelector(".header").style.backgroundColor = "#0F0229";
+    document.body.style.overflow = "hidden";
   } else {
     document.querySelector(".header").style.backgroundColor = "";
+    document.body.style.overflow = "visible";
   }
 }
