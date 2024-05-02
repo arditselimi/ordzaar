@@ -556,6 +556,11 @@ a {
 }
 
 .footer {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  left: 0;
+
   background: hsla(258, 92%, 15%, 1);
 
   background: linear-gradient(
