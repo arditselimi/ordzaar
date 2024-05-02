@@ -661,6 +661,50 @@ a {
   .profile .profile-bottom .card div:last-child {
     border-bottom: 0;
   }
+
+  .header .right ul.active {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: absolute;
+    left: 0;
+    top: 100%;
+
+    width: 100%;
+    height: 100vh;
+    background-color: #04020aa0;
+    padding: 2rem 3rem;
+  }
+
+  .header .right ul li {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 1rem;
+  }
+
+  .header .right ul li a,
+  .header .right ul li i {
+    color: #fff !important;
+  }
+
+  .header .right ul li:hover .menu {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: none;
+    border: none;
+    width: 100%;
+  }
+
+  .header .right ul li .menu li {
+    display: block;
+  }
+
+  .header .right ul li .menu li:hover a {
+    color: greenyellow !important;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -713,45 +757,5 @@ a {
 
   .market .bottom .card {
     width: 30rem;
-  }
-
-  .header .right ul.active {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    position: absolute;
-    left: 0;
-    top: 100%;
-
-    width: 100%;
-    height: 100vh;
-    background-color: #04020aa0;
-    padding: 2rem 3rem;
-  }
-
-  .header .right ul li {
-    display: inline-block;
-    width: 100%;
-    border-bottom: 1px solid gray;
-    padding-bottom: 1rem;
-  }
-
-  .header .right ul li a,
-  .header .right ul li i {
-    color: #fff !important;
-  }
-
-  .header .right ul li:hover .menu {
-    display: block;
-    position: relative;
-    top: 0;
-    left: 0;
-    background: none;
-    border: none;
-    width: 100%;
-  }
-
-  .header .right ul li .menu li {
-    display: block;
   }
 }
