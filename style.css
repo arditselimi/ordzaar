@@ -61,7 +61,7 @@ a {
 }
 
 .bg {
-  background: url("./assets/img/header-bg.jpg");
+  background: url("./assets/img/bg.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
